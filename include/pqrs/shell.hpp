@@ -12,7 +12,7 @@
 namespace pqrs {
 namespace shell {
 inline std::string make_background_command_string(const std::string& command) {
-  auto trimmed_command = pqrs::string::trim_copy(command);
+  auto trimmed_command = string::trim_copy(command);
   if (trimmed_command.empty()) {
     return "";
   }
